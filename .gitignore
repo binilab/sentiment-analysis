@@ -1,0 +1,29 @@
+# --- 데이터 관련 ---
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+
+# --- 파이썬 관련 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+env/
+.env
+
+# --- 딥러닝/허깅페이스 관련 ---
+results/            # 학습 중간 결과물(체크포인트)
+logs/               # 학습 기록 로그
+models/saved_model/ # 최종 저장 모델
+checkpoint-*/       # 트레이너가 생성하는 임시 체크포인트
+
+# --- 주피터 노트북 관련 ---
+.ipynb_checkpoints/
+
+# --- 시스템/IDE 관련 ---
+.DS_Store           # Mac용
+Thumbs.db           # Windows용
+.vscode/
+.idea/
